@@ -1,45 +1,39 @@
-/* screen - home-page */
+/* screen - frame-20 */
 
-.home-page {
-  align-items: flex-start;
-  background-color: #d9a795;
+.frame-20 {
   border: 1px none;
   display: flex;
-  gap: 217px;
+  min-height: 3842px;
+  min-width: 1512px;
+  width: 100%;
+}
+
+.frame-20 .home-page {
+  align-items: flex-end;
+  background-color: #d9a795;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
   height: 3842px;
   overflow: hidden;
   width: 1512px;
 }
 
-.home-page .hananjamaaagmailcom-linked-in {
-  letter-spacing: 0;
-  line-height: normal;
-  margin-left: -694px;
-  margin-top: 3142px;
-  min-height: 124px;
-  width: 345px;
-}
-
-.home-page .span1 {
-  text-decoration: underline;
-}
-
-.home-page .flex-col {
-  align-items: flex-start;
-  display: flex;
+.frame-20 .flex-col {
   flex-direction: column;
-  min-height: 3842px;
-  width: 2858px;
+  margin-right: -390px;
+  min-height: 1222px;
+  width: 1833px;
 }
 
-.home-page .overlap-group3 {
+.frame-20 .overlap-group5 {
   height: 877px;
-  margin-left: 207px;
+  margin-left: 6.0px;
   position: relative;
   width: 1827px;
 }
 
-.home-page .rectangle-3 {
+.frame-20 .rectangle-3 {
   height: 549px;
   left: 861px;
   position: absolute;
@@ -47,7 +41,7 @@
   width: 576px;
 }
 
-.home-page .rectangle-1 {
+.frame-20 .rectangle-1 {
   height: 549px;
   left: 879px;
   position: absolute;
@@ -55,7 +49,7 @@
   width: 558px;
 }
 
-.home-page .vector-1 {
+.frame-20 .vector-1 {
   height: 17px;
   left: 1371px;
   position: absolute;
@@ -63,7 +57,7 @@
   width: 17px;
 }
 
-.home-page .vector-2 {
+.frame-20 .vector-2 {
   height: 17px;
   left: 1363px;
   position: absolute;
@@ -71,7 +65,7 @@
   width: 17px;
 }
 
-.home-page .vector-3 {
+.frame-20 .vector-3 {
   height: 9px;
   left: 1116px;
   position: absolute;
@@ -79,7 +73,7 @@
   width: 9px;
 }
 
-.home-page .vector-4 {
+.frame-20 .vector-4 {
   height: 17px;
   left: 1388px;
   position: absolute;
@@ -87,7 +81,7 @@
   width: 17px;
 }
 
-.home-page .vector-5 {
+.frame-20 .vector-5 {
   height: 17px;
   left: 1338px;
   position: absolute;
@@ -95,7 +89,7 @@
   width: 17px;
 }
 
-.home-page .vector-6 {
+.frame-20 .vector-6 {
   height: 32px;
   left: 1117px;
   position: absolute;
@@ -103,32 +97,48 @@
   width: 36px;
 }
 
-.home-page .frame-19 {
-  align-items: flex-start;
+.frame-20 .frame-22 {
   display: flex;
-  flex-direction: column;
-  gap: 62px;
+  height: 849px;
   left: 0;
-  min-height: 849px;
   position: absolute;
   top: 28px;
   width: 1827px;
 }
 
-.home-page .frame-13 {
+.frame-20 .frame-21 {
+  display: flex;
+  width: 1827px;
+}
+
+.frame-20 .frame-20-1 {
+  display: flex;
+  height: 849px;
+  width: 1827px;
+}
+
+.frame-20 .frame-19 {
   align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  min-height: 849px;
+  width: 1827px;
+}
+
+.frame-20 .frame-13 {
   display: flex;
   margin-left: 30px;
   margin-top: 1px;
-  min-width: 1290px;
+  width: 1290px;
 }
 
-.home-page .component-1 {
+.frame-20 .component-1 {
   align-items: center;
   min-width: 1290px;
 }
 
-.home-page .hanan-jama-logos_transparent-1 {
+.frame-20 .hanan-jama-logos_transparent-1 {
   align-self: flex-start;
   height: 106px;
   margin-left: -42px;
@@ -137,7 +147,7 @@
   width: 186px;
 }
 
-.home-page .about {
+.frame-20 .about {
   letter-spacing: 0;
   line-height: normal;
   margin-bottom: 15.0px;
@@ -146,7 +156,7 @@
   width: 70px;
 }
 
-.home-page .resume {
+.frame-20 .resume {
   letter-spacing: 0;
   line-height: normal;
   margin-bottom: 15.0px;
@@ -155,7 +165,7 @@
   width: 118px;
 }
 
-.home-page .get-in-touch {
+.frame-20 .get-in-touch {
   letter-spacing: 0;
   line-height: normal;
   margin-bottom: 15.0px;
@@ -163,7 +173,7 @@
   width: 174px;
 }
 
-.home-page .twitter {
+.frame-20 .twitter {
   align-items: flex-end;
   align-self: flex-end;
   display: flex;
@@ -173,19 +183,19 @@
   width: 62px;
 }
 
-.home-page .icon-twitter {
+.frame-20 .icon-twitter {
   height: 24px;
   width: 29px;
 }
 
-.home-page .icon-linkedin {
+.frame-20 .icon-linkedin {
   height: 28px;
   margin-left: 37px;
   margin-top: 12.0px;
   width: 32px;
 }
 
-.home-page .instagram {
+.frame-20 .instagram {
   align-items: flex-end;
   align-self: flex-end;
   display: flex;
@@ -195,76 +205,79 @@
   width: 62px;
 }
 
-.home-page .icon-instagram {
+.frame-20 .icon-instagram {
   height: 34px;
   width: 34px;
 }
 
-.home-page .flex-row {
-  align-items: center;
-  display: flex;
+.frame-20 .flex-row {
   gap: 71px;
   margin-left: 4px;
   min-width: 1823px;
 }
 
-.home-page .frame-14 {
+.frame-20 .frame-14 {
+  display: flex;
+  height: 517px;
+  margin-bottom: 13.0px;
+  width: 580px;
+}
+
+.frame-20 .group-1107 {
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 69px;
-  margin-bottom: 13.0px;
   min-height: 517px;
-  width: 580px;
+  width: 586px;
 }
 
-.home-page .flex-row-1 {
+.frame-20 .flex-row-1 {
   align-items: center;
   display: flex;
   gap: 18px;
+  margin-right: 6.0px;
   min-width: 580px;
 }
 
-.home-page .overlap-group {
+.frame-20 .overlap-group {
   height: 373px;
   position: relative;
   width: 458px;
 }
 
-.home-page .im-hanan {
-  align-items: flex-start;
+.frame-20 .im-hanan {
   display: flex;
   height: 145px;
   left: 0;
-  min-width: 458px;
   position: absolute;
   top: 22px;
+  width: 458px;
 }
 
-.home-page .im-hanan-1 {
+.frame-20 .im-hanan-1 {
   background-color: transparent;
   border: 0;
   color: var(--old-lace);
-  font-family: var(--font-family-kurale-regular);
+  flex: 1;
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-xxxxl);
   font-weight: 400;
-  height: 145px;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
   padding: 0;
   width: 458px;
 }
 
-.home-page .im-hanan-1::placeholder {
+.frame-20 .im-hanan-1::placeholder {
   color: #fcf5e399;
 }
 
-.home-page .hello-there {
+.frame-20 .hello-there {
   background-color: transparent;
   border: 0;
   color: var(--old-lace-2);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-l);
   font-weight: 400;
   height: 37px;
@@ -277,15 +290,15 @@
   width: 160px;
 }
 
-.home-page .hello-there::placeholder {
+.frame-20 .hello-there::placeholder {
   color: #fcf6e499;
 }
 
-.home-page .ux-designer-researcher {
+.frame-20 .ux-designer-researcher {
   background-color: transparent;
   border: 0;
   color: var(--old-lace);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: 38px;
   font-weight: 400;
   height: 119px;
@@ -298,15 +311,15 @@
   width: 407px;
 }
 
-.home-page .ux-designer-researcher::placeholder {
+.frame-20 .ux-designer-researcher::placeholder {
   color: #fcf5e399;
 }
 
-.home-page .im-a-user-experience {
+.frame-20 .im-a-user-experience {
   background-color: transparent;
   border: 0;
   color: #ffffff;
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-s);
   font-weight: 400;
   height: 118px;
@@ -319,29 +332,30 @@
   width: 455px;
 }
 
-.home-page .im-a-user-experience::placeholder {
+.frame-20 .im-a-user-experience::placeholder {
   color: #ffffff99;
 }
 
-.home-page .flex-col-1 {
+.frame-20 .flex-col-1 {
+  align-items: flex-start;
   gap: 94px;
   margin-bottom: 38.0px;
   min-height: 219px;
   width: 104px;
 }
 
-.home-page .vector-7 {
+.frame-20 .vector-7 {
   height: 36px;
   width: 47px;
 }
 
-.home-page .group-1104 {
+.frame-20 .group-1104 {
   align-self: flex-end;
   height: 89px;
   width: 58px;
 }
 
-.home-page .group-1105 {
+.frame-20 .group-1105 {
   align-items: flex-start;
   background-color: var(--old-lace);
   border-radius: 20px;
@@ -349,32 +363,32 @@
   gap: 15px;
   height: 75px;
   justify-content: flex-end;
-  margin-right: 147.0px;
+  margin-right: 153.0px;
   min-width: 213px;
   padding: 14px 27.9px;
 }
 
-.home-page .projects {
+.frame-20 .projects {
   letter-spacing: 0;
   line-height: normal;
   min-height: 44px;
   min-width: 103px;
 }
 
-.home-page .vector-8 {
+.frame-20 .vector-8 {
   align-self: center;
   height: 15px;
   margin-bottom: 1.08px;
   width: 14px;
 }
 
-.home-page .group-container {
+.frame-20 .group-container {
   height: 716px;
   position: relative;
   width: 1172px;
 }
 
-.home-page .overlap-group1 {
+.frame-20 .overlap-group1 {
   height: 671px;
   left: 0;
   position: absolute;
@@ -382,7 +396,7 @@
   width: 1172px;
 }
 
-.home-page .rectangle-6 {
+.frame-20 .rectangle-6 {
   height: 554px;
   left: 205px;
   position: absolute;
@@ -390,7 +404,7 @@
   width: 577px;
 }
 
-.home-page .rectangle-5 {
+.frame-20 .rectangle-5 {
   height: 549px;
   left: 191px;
   position: absolute;
@@ -398,7 +412,7 @@
   width: 591px;
 }
 
-.home-page .rectangle-4 {
+.frame-20 .rectangle-4 {
   height: 535px;
   left: 0;
   position: absolute;
@@ -406,7 +420,7 @@
   width: 782px;
 }
 
-.home-page .rectangle-2 {
+.frame-20 .rectangle-2 {
   background-color: var(--old-lace-2);
   border-radius: 109px;
   height: 474px;
@@ -416,7 +430,7 @@
   width: 948px;
 }
 
-.home-page .vector-9 {
+.frame-20 .vector-9 {
   height: 9px;
   left: 309px;
   position: absolute;
@@ -424,7 +438,7 @@
   width: 9px;
 }
 
-.home-page .x100_0511-1 {
+.frame-20 .x100_0511-1 {
   height: 491px;
   left: 358px;
   object-fit: cover;
@@ -433,7 +447,7 @@
   width: 318px;
 }
 
-.home-page .group-1103 {
+.frame-20 .group-1103 {
   height: 89px;
   left: 250px;
   position: absolute;
@@ -441,46 +455,23 @@
   width: 58px;
 }
 
-.home-page .frame-18 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 195px;
-  margin-top: 65px;
-  min-height: 2552px;
-  padding: 0 6px;
-  width: 1608px;
-}
-
-.home-page .flex-row-2 {
-  align-items: flex-start;
-  display: flex;
-  gap: 196px;
-  height: 976px;
-  margin-top: -1px;
-  min-width: 1310px;
-}
-
-.home-page .flex-col-2 {
-  min-height: 882px;
-  width: 750px;
-}
-
-.home-page .title {
-  align-self: flex-end;
+.frame-20 .title {
   color: var(--old-lace-2);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: 96px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
+  margin-right: 558.0px;
+  margin-top: 64px;
   min-height: 142px;
   min-width: 225px;
 }
 
-.home-page .trip-assist {
+.frame-20 .trip-assist {
+  align-self: flex-start;
   color: var(--old-lace);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-xxxl);
   font-weight: 400;
   letter-spacing: 0;
@@ -490,17 +481,26 @@
   text-shadow: 0px 4px 4px #00000040;
 }
 
-.home-page .overlap-group-1 {
+.frame-20 .flex-row-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 241px;
+  height: 649px;
+  margin-right: 55.0px;
+  margin-top: 46px;
+  min-width: 1301px;
+}
+
+.frame-20 .overlap-group4 {
   background-color: var(--old-lace);
   border-radius: 35px;
   height: 555px;
-  margin-left: 9px;
-  margin-top: 46px;
   position: relative;
   width: 696px;
 }
 
-.home-page .screen-shot-2023-05-05-at-956-1 {
+.frame-20 .screen-shot-2023-05-05-at-956-1 {
   height: 286px;
   left: 14px;
   object-fit: cover;
@@ -509,7 +509,7 @@
   width: 303px;
 }
 
-.home-page .screen-shot-2023-05-05-at-1001-1 {
+.frame-20 .screen-shot-2023-05-05-at-1001-1 {
   height: 264px;
   left: 36px;
   object-fit: cover;
@@ -518,21 +518,21 @@
   width: 286px;
 }
 
-.home-page .screen-shot-2023-05-05-at-1002-1 {
+.frame-20 .screen-shot-2023-05-05-at-1002-1 {
   height: 292px;
   left: 256px;
   top: 14px;
   width: 315px;
 }
 
-.home-page .screen-shot-2023-05-05-at-1002-2 {
+.frame-20 .screen-shot-2023-05-05-at-1002-2 {
   height: 266px;
   left: 357px;
   top: 289px;
   width: 291px;
 }
 
-.home-page .rectangle-887 {
+.frame-20 .rectangle-887 {
   background-color: #eea489;
   border-radius: 25px;
   height: 140px;
@@ -542,7 +542,7 @@
   width: 545px;
 }
 
-.home-page .screen-shot-2023-04-13-at-204-1 {
+.frame-20 .screen-shot-2023-04-13-at-204-1 {
   height: 140px;
   left: 97px;
   object-fit: cover;
@@ -551,14 +551,15 @@
   width: 502px;
 }
 
-.home-page .flex-col-3 {
+.frame-20 .flex-col-2 {
+  align-items: flex-start;
   align-self: flex-end;
   gap: 310px;
   min-height: 475px;
   width: 364px;
 }
 
-.home-page .component-4 {
+.frame-20 .component-4 {
   align-items: flex-start;
   background-color: var(--old-lace);
   border-radius: 25px;
@@ -567,23 +568,23 @@
   padding: 11px 15px;
 }
 
-.home-page .view-case-study {
+.frame-20 .view-case-study {
   letter-spacing: 0;
   line-height: normal;
   min-height: 45px;
   width: 222px;
 }
 
-.home-page .vector {
+.frame-20 .vector {
   align-self: center;
   height: 15px;
   margin-top: 3.92px;
   width: 14px;
 }
 
-.home-page .cafe-connect {
+.frame-20 .cafe-connect {
   color: var(--old-lace-2);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-xxxl);
   font-weight: 400;
   letter-spacing: 0;
@@ -592,66 +593,82 @@
   text-shadow: 0px 4px 4px #00000040;
 }
 
-.home-page .flex-row-3 {
+.frame-20 .flex-col-3 {
   align-items: center;
-  align-self: center;
+  margin-right: -1214px;
+  margin-top: 65px;
+  min-height: 1860px;
+  width: 3420px;
+}
+
+.frame-20 .flex-row-3 {
+  align-items: center;
   display: flex;
   gap: 255px;
-  margin-right: 48.0px;
-  margin-top: 65px;
+  margin-right: 346.0px;
   min-width: 1258px;
 }
 
-.home-page .component-4-1 {
-  align-items: flex-start;
-  background-color: var(--old-lace);
-  border-radius: 25px;
-  display: flex;
-  gap: 18px;
-  height: 70px;
+.frame-20 .component-4-1 {
   margin-top: 30.0px;
-  min-width: 293px;
-  padding: 11px 15px;
 }
 
-.home-page .screen-shot-2023-05-08-at-336-1 {
+.frame-20 .screen-shot-2023-05-08-at-336-1 {
   width: 710px;
 }
 
-.home-page .the-stop {
+.frame-20 .the-stop {
   color: var(--old-lace-2);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-xxxl);
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 32px;
+  margin-right: 1587.0px;
   margin-top: 290px;
   min-height: 95px;
+  min-width: 243px;
   text-shadow: 0px 4px 4px #00000040;
 }
 
-.home-page .flex-row-4 {
+.frame-20 .flex-row-4 {
   align-items: center;
+  align-self: flex-start;
   display: flex;
-  gap: 211px;
-  margin-left: 2px;
   margin-top: 76px;
-  min-width: 1252px;
+  min-width: 2017px;
 }
 
-.home-page .screen-shot-2023-05-08-at-336-2 {
+.frame-20 .hananjamaaagmailcom-linked-in {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 14.0px;
+  min-height: 124px;
+  width: 345px;
+}
+
+.frame-20 .span1 {
+  text-decoration: underline;
+}
+
+.frame-20 .screen-shot-2023-05-08-at-336-2 {
+  margin-left: 420px;
   width: 748px;
 }
 
-.home-page .overlap-group4 {
+.frame-20 .component-4-2 {
+  margin-left: 211px;
+}
+
+.frame-20 .overlap-group3 {
+  align-self: flex-end;
   height: 212px;
-  margin-top: 136px;
+  margin-top: 163px;
   position: relative;
   width: 2858px;
 }
 
-.home-page .rectangle-10 {
+.frame-20 .rectangle-10 {
   background-color: var(--old-lace-2);
   height: 212px;
   left: 132px;
@@ -660,7 +677,7 @@
   width: 1512px;
 }
 
-.home-page .lets-chat-le {
+.frame-20 .lets-chat-le {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -669,7 +686,11 @@
   width: 2858px;
 }
 
-.home-page .hananjamaaagmailcom-linked-in-1 {
+.frame-20 .hananjamaaagmailcom-linked-in-1 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
   left: 592px;
   letter-spacing: 0;
   line-height: normal;
@@ -678,23 +699,38 @@
   top: 93px;
 }
 
-.home-page .component {
+.frame-20 .component {
   display: flex;
   height: 70px;
 }
 
-.home-page .flex-col-4 {
+.frame-20 .component-4-3 {
   align-items: flex-start;
+  background-color: var(--old-lace);
+  border-radius: 25px;
+  display: flex;
+  gap: 18px;
+  height: 70px;
+  min-width: 293px;
+  padding: 11px 15px;
+}
+
+.frame-20 .flex {
+  align-items: center;
+  display: flex;
+}
+
+.frame-20 .flex-col-4 {
   display: flex;
   flex-direction: column;
 }
 
-.home-page .screen-shot-2023-05-05-at-1002 {
+.frame-20 .screen-shot-2023-05-05-at-1002 {
   object-fit: cover;
   position: absolute;
 }
 
-.home-page .screen-shot-2023-05-08-at-336 {
+.frame-20 .screen-shot-2023-05-08-at-336 {
   height: 512px;
   object-fit: cover;
 }

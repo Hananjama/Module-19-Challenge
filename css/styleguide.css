@@ -12,38 +12,29 @@
   --font-size-xxxl: 64px;
   --font-size-xxxxl: 98px;
  
-  --font-family-kurale-regular: "Kurale-Regular", Helvetica;
-  --font-family-montserrat-bold: "Montserrat-Bold", Helvetica;
-  --font-family-montserrat-medium: "Montserrat-Medium", Helvetica;
+  --font-family-kurale: "Kurale", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
 }
-.montserrat-medium-black-24px {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-medium);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.kurale-regular-normal-evening-sea-30px {
+.kurale-normal-evening-sea-30px {
   color: var(--evening-sea);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
 
-.kurale-regular-normal-old-lace-25px {
+.montserrat-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.kurale-normal-old-lace-25px {
   color: var(--old-lace);
-  font-family: var(--font-family-kurale-regular);
+  font-family: var(--font-family-kurale);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
-}
-
-.montserrat-bold-black-36px {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-bold);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 700;
 }
