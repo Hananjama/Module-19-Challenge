@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Event listener for nav bar items
+    // Event listener for hover over "About", "Resume", and "Get in Touch"
     $(".about, .resume, .get-in-touch").hover(
       function() {
         $(this).css("color", "#005B47");
@@ -9,7 +9,7 @@ $(document).ready(function() {
       }
     );
   
-    // Event listener for "I'm Hanan" - Changing "Hanan" font color
+    // Event listener for hover over "I'm Hanan"
     $(".im-hanan-1").hover(
       function() {
         $(this).find("textarea").css("color", "#005B47");
@@ -19,34 +19,34 @@ $(document).ready(function() {
       }
     );
   
-    // Event listener for "Projects" button - Changing button color
+    // Event listener for hover over "Projects" button
     $(".projects").hover(
       function() {
         $(this).css({
           "background-color": "#005B47",
-          "border-radius": "25px",
+          "border-radius": "20px",
           "width": "213px",
-          "height": "75px"
+          "height": "75px",
+          "color": "#FCF5E3" // Change the text color to #FCF5E3
         });
-        $(this).find(".kurale-regular-normal-evening-sea-30px").css("color", "#FCF5E3");
       },
       function() {
         $(this).css({
-          "background-color": "transparent",
-          "border-radius": "25px",
-          "width": "auto",
-          "height": "auto"
+          "background-color": "#FCF5E3",
+          "border-radius": "20px",
+          "width": "213px",
+          "height": "75px",
+          "color": "#005B47" // Change the text color to #005B47
         });
-        $(this).find(".kurale-regular-normal-evening-sea-30px").css("color", "#005B47");
       }
     );
   
-    // Event listener for "View Case Study" button - Changing button color
+    // Event listener for hover over "View Case Study" button
     $(".view-case-study").hover(
       function() {
         $(this).css({
           "background-color": "#005B47",
-          "border-radius": "35px",
+          "border-radius": "25px",
           "width": "293px",
           "height": "70px",
           "color": "#FCF5E3"
@@ -54,10 +54,10 @@ $(document).ready(function() {
       },
       function() {
         $(this).css({
-          "background-color": "transparent",
-          "border-radius": "35px",
-          "width": "auto",
-          "height": "auto",
+          "background-color": "#FCF5E3",
+          "border-radius": "25px",
+          "width": "293px",
+          "height": "70px",
           "color": "#005B47"
         });
       }
