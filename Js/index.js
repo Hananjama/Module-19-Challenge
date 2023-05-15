@@ -1,4 +1,4 @@
-
+console.log("hello");
 $(document).ready(function() {
     // Change navbar items color on hover
     $('.about, .resume, .get-in-touch').hover(
